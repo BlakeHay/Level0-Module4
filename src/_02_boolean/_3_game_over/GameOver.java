@@ -7,7 +7,13 @@ public class GameOver {
 	public static void main(String[] args) {
 
 		boolean gameOver = false;
-		
+	while(!gameOver){
+	String answer = JOptionPane.showInputDialog(null, "Is the game over?");
+	if(answer.equalsIgnoreCase("yes")){
+	gameOver= true;
+	}
+	else{}
+	}	
 		// 1. Ask the user if the game is over and save their answer.
 		
 		// 2. If they answer "yes" change gameOver to true.

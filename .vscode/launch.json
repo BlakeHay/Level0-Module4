@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PiAloud",
+            "request": "launch",
+            "mainClass": "_03_char._3_pi_aloud.PiAloud",
+            "projectName": "Level0-Module4_26c0ea09"
+        },
+        {
+            "type": "java",
+            "name": "GooglyEyes",
+            "request": "launch",
+            "mainClass": "_02_boolean._5_googly_eyes.GooglyEyes",
+            "projectName": "Level0-Module4_26c0ea09"
+        },
+        {
+            "type": "java",
             "name": "test_scores",
             "request": "launch",
             "mainClass": "_01_double._2_test_scores.test_scores",

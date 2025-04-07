@@ -8,9 +8,14 @@ public class PiAloud {
      * If you cannot play sound on this computer, set canPlaySounds to false.
      * If you are not sure, ask your teacher
      * *****************/
-    boolean canPlaySounds = true;
-
-
+    boolean canPlaySounds = false;
+	public static void main(String[] args) {
+    String pi = "3.14159265358979323826264338327950288419716939937510582097494459";
+    for(Integer i = 0; i < pi.length(); i++){
+    char digit = pi.charAt(i);
+    System.out.println(digit);
+    }
+}
     // 1. Make a main method and make sure your program can run
 
     // 2. Make a String variable to hold 20 digits of Pi. You could use http://www.piday.org/million/ to get this.
